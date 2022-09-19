@@ -33,4 +33,70 @@
 // double y = (k1 * x) + b1;
 // Console.WriteLine($"Координаты точки: {x} , {y}");
 
+// доп 1 (не готов)
+// Console.WriteLine("Введите количество строк в матрице:");
+// int line = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите количество столбцов в матрице:");
+// int column = Convert.ToInt32(Console.ReadLine());
+// void PrintArray(int[,] matr)
+// {
+// for (int i = 0; i < matr.GetLength(0); i++)
+// {
+//     for (int j = 0; j < matr.GetLength(1); j++)
+//     {
+//         Console.Write($"{matr[i, j]}    ");
+//     }
+//     Console.WriteLine();
+// }  
+// }
+
+// void FillArray (int [,] matr)
+// {
+//    for(int i =0; i < matr.GetLength(0); i++)  
+//   for (int j = 0; j < matr.GetLength(1); j++)
+//   {
+//   matr[i,j] = new Random().Next (1,10);
+//   }
+// }
+
+// void Arr (int [,] array)
+// {
+//     int n = array.GetLength(0);
+//     int m = array.GetLength(1);
+// for(int i = 0; i < n/2; i++)
+// {
+//     for(int j = 0; j < m; j++)
+//     {
+//        int temp = array[n - 1-i,j];
+//         array[n - 1-i,j] = array[i,j];
+//         array[i,j] = temp;
+        
+//         Console.Write($"{array[i,j]}    ");
+//     }
+//     Console.WriteLine();
+    
+// }
+// for(int i = 0; i < n - i; i++)
+// {
+//      for(int j = 0; j < m; j++)
+//      {   
+//          int temp = array[i,j];
+//          array[i,j] = array[n - 1 - i,j];
+//          array[n - 1,j] = temp;
+        
+//          Console.Write($"{array[n-1,j]}    ");
+//     }
+//      Console.WriteLine();
+// }
+// }
+// int [,] array = new int[line, column];
+// Console.WriteLine("_______");
+
+// FillArray(array);
+// PrintArray(array);
+// Console.WriteLine("_______");
+// Arr(array);
+
+
+
 
